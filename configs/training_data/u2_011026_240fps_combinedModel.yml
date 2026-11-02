@@ -1,0 +1,4 @@
+output_dataset_name : 'u2_011026_240fps_combinedModel.parquet'
+computed_force_pq : 'C:\Users\Marco Chow\Desktop\Projects\Force_predictions\computed_force_residuals\data\computed_forces\u2_011026_240fps_combinedModel.parquet'
+unfeaturized_pose_force_pq : '\\NAS001-GVW\Motion2Coach\Biomechanics\Marco_Chow\Projects\Force_predictions\Dataset\non_featurized\cleaned\240fps\u2_011026_240fps_combinedModel\dataset\dataset_processed_v1.parquet'
+featurized_pose_force_pq : '\\NAS001-GVW\Motion2Coach\Biomechanics\Marco_Chow\Projects\Force_predictions\Dataset\featurized\u2_011026_240fps_combinedModel_v1.parquet'

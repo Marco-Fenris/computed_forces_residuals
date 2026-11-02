@@ -1,0 +1,104 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---------- Virtual environments ----------
+.venv/
+venv/
+env/
+.conda/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+# Consider stripping outputs with nbstripout instead of ignoring notebooks
+
+# ---------- Data (track with DVC / object storage, not git) ----------
+data/
+datasets/
+*.csv
+*.parquet
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.feather
+*.c3d
+*.trc
+*.mot
+*.mp4
+*.avi
+*.mov
+
+# ---------- Models and checkpoints ----------
+checkpoints/
+models/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.pb
+*.tflite
+*.joblib
+
+# ---------- Experiment tracking and outputs ----------
+runs/
+outputs/
+logs/
+lightning_logs/
+tensorboard/
+wandb/
+mlruns/
+mlartifacts/
+.hydra/
+multirun/
+results/
+*.log
+
+# ---------- DVC ----------
+/.dvc/cache
+/.dvc/tmp
+
+# ---------- Secrets and local config ----------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials*.json
+
+# ---------- Caches ----------
+.cache/
+.torch/
+.huggingface/
+
+# ---------- Editors and OS ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# ---------- Keep these despite the rules above ----------
+!data/.gitkeep
+!models/.gitkeep
+
+#data
+*.json
+*.parquet
+
+#.history
+.history/
